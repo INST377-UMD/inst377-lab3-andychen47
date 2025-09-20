@@ -1,0 +1,22 @@
+body {
+    background-color: tan;
+}
+header {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+#side_bar {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#side_bar ul {
+    display: inline;
+    padding:8px;
+    margin: 10%;
+    width: 40%;
+}
