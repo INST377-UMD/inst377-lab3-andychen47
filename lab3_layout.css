@@ -2,13 +2,14 @@ body {
     background-color: tan;
     font-family: 'Times New Roman', Times, serif;
 }
-header {
+#bar {
     text-align: center;
     background-color: grey;
     color: white;
     padding: 4px;
     font-family: 'Courier New', Courier, monospace;
     margin: 5px;
+    clear:both
 }
 #navigate {
     background-color: blue;
@@ -74,6 +75,10 @@ header {
     border: 2px solid black;
 }
 
+#side_bar:hover {
+    background-color: cadetblue;
+}
+
 .content_box {
     background-color: aquamarine;
     border: 2px solid black;
@@ -87,4 +92,14 @@ header {
 .content_box h1 {
     font-style: italic;
     text-align: left;
+}
+
+#Name {
+  width: 200px; 
+  padding: 5px;
+  font-size: 14px;
+}
+
+#Name:focus {
+  width: 212px;
 }
