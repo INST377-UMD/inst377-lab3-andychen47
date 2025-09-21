@@ -1,0 +1,105 @@
+body {
+    background-color: tan;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bar {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    clear:both
+}
+#navigate {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#navigate li {
+    display: inline-block;
+    position: relative;
+}
+
+#navigate li:hover {
+    background-color: aqua;
+    color: white;
+}
+
+#navigate ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navigate ul ul {
+    display: none; 
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+}
+
+#navigate li:hover > ul {
+    display: block; 
+}
+
+#navigate ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+#navigate ul ul li {
+    display: block; 
+}
+.main-container {
+    padding: 10px;
+}
+
+.content_area {
+    width: 73%;
+    float: left;
+}
+
+#side_bar {
+    width: 25%;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#side_bar:hover {
+    background-color: cadetblue;
+}
+
+.content_box {
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 20px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.content_box h1 {
+    font-style: italic;
+    text-align: left;
+}
+
+#Name {
+  width: 200px; 
+  padding: 5px;
+  font-size: 14px;
+}
+
+#Name:focus {
+  width: 212px;
+}
