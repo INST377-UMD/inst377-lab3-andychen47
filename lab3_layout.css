@@ -56,18 +56,35 @@ header {
 #navigate ul ul li {
     display: block; 
 }
+.main-container {
+    padding: 10px;
+}
+
+.content_area {
+    width: 73%;
+    float: left;
+}
+
+#side_bar {
+    width: 25%;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
 .content_box {
     background-color: aquamarine;
     border: 2px solid black;
     border-radius: 15px;
     margin: 5px;
-    padding: 10%;
-    width: 20%;
+    padding: 20px;
+    width: 90%;
+    box-sizing: border-box;
 }
+
 .content_box h1 {
     font-style: italic;
     text-align: left;
-}
-.main-container {
-    border: 2px solid red; 
 }
